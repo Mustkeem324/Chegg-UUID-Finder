@@ -1,6 +1,6 @@
 **README.dm**
 
-# Chegg UUID Finder
+# Chegg UUID Finder Extension
 
 ## Description
 
