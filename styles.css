@@ -1,0 +1,62 @@
+/* Banner Container */
+.question-banner {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, #FFD700, #FFA500);
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 1.2rem;
+  z-index: 9999;
+  padding: 0 20px;
+  box-sizing: border-box;
+  border-bottom: 2px solid #FF6347;
+}
+
+/* Banner Link */
+.question-banner a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.question-banner a:hover {
+  text-decoration: underline;
+  color: #FF6347;
+}
+
+/* Banner Title */
+.question-banner h1 {
+  font-size: 1.6rem;
+  margin: 0;
+  padding-right: 10px;
+}
+
+/* Banner Icon */
+.question-banner .icon {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .question-banner {
+    height: 60px;
+    font-size: 1rem;
+    padding: 0 10px; /* Adjusted padding for smaller screens */
+  }
+  
+  .question-banner h1 {
+    font-size: 1.2rem;
+  }
+  
+  .question-banner .icon {
+    font-size: 1.5rem;
+    margin-right: 5px; /* Adjusted margin for smaller screens */
+  }
+}
